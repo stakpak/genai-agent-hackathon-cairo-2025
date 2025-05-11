@@ -15,7 +15,7 @@ A Google Colab notebook demonstrating how to build a simple **Private Tutor** ap
 
 ---
 
-## 2. `coding_agent/` — How to Build a Coding Agent
+## 2. `coder_agent/` — How to Build a Coding Agent
 
 A standalone Python project showcasing how to build an intelligent **Coding Agent** from scratch. It guides you through:
 - **Agent Workflow**
