@@ -3,8 +3,8 @@
 This public repository contains two practical tutorials designed for participants of the **GenAI Agent Hackathon — Cairo 2025**. It provides a hands-on introduction to building applications powered by **Large Language Models (LLMs)**, with a focus on real-world agent workflows and tools.
 
 ---
-
-## 1. `private_tutor_app/` — LLM Application Technical Workshop
+# Technincal_workshops directory : 
+## 1. `private_tutor_llm_app/` — LLM Application Technical Workshop
 
 A Google Colab notebook demonstrating how to build a simple **Private Tutor** application. This tutorial walks through the essential components of an LLM-based application, including:
 
