@@ -22,8 +22,6 @@ A standalone Python project showcasing how to build an intelligent **Coding Agen
 - **Implementing Tool Calling** (e.g agentic actions:  run_command , list_directories .... )
 - **Agent Iteration Logic**
 - **End Goal shaping** 
-Explore both tutorials to deepen your understanding of LLM-powered agents and how to bring them to life in real-world use cases.
-
 ---
 
 ## 📁 `material/` — Technical Slides & Workshop Resources
