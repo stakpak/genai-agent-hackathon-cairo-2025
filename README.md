@@ -1,3 +1,5 @@
+#Authors : Abdalla Mohamed , George Fahmy 
+
 # genai-agent-hackathon-cairo-2025
 
 This public repository contains two practical tutorials designed for participants of the **GenAI Agent Hackathon — Cairo 2025**. It provides a hands-on introduction to building applications powered by **Large Language Models (LLMs)**, with a focus on real-world agent workflows and tools.
@@ -28,3 +30,4 @@ A standalone Python project showcasing how to build an intelligent **Coding Agen
 
 This folder contains the official **technical slides** used during the hackathon workshops. 
 
+#Authors : Abdalla Mohamed , George Fahmy 
