@@ -227,7 +227,7 @@ def is_goal_achieved(state) -> bool:
     return (
         "role" in last_message
         and last_message["role"] == "assistant"
-        and "tool_calls" not in last_message
+        and not last_message.get("tool_calls")
     )
 
 
@@ -253,6 +253,9 @@ def loop(user_input: str):
         )
 
         agent_state["messages"].append(completion.choices[0].message.model_dump())
+
+        if completion.choices[0].message.content:
+            print(completion.choices[0].message.content)
 
         if completion.choices[0].message.tool_calls:
             for tool_call in completion.choices[0].message.tool_calls:
@@ -304,5 +307,13 @@ def loop(user_input: str):
 
 
 if __name__ == "__main__":
-    user_input = input("How can I help you?\n")
-    loop(user_input)
+    print("How can I help you? (type 'exit' to quit)")
+    while True:
+        try:
+            user_input = input("> ")
+            if user_input.lower() in ["exit", "quit"]:
+                break
+            loop(user_input)
+        except KeyboardInterrupt:
+            print("\nExiting...")
+            break
